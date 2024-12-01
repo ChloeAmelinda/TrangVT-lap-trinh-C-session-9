@@ -22,7 +22,7 @@ int main() {
                 printf("Nhap so phan tu: ");
                 scanf("%d", &n); 
                 if (n > 100 || n < 0) {
-                    printf("So phan tu khong hop le! Vui long nhap lai.\n");
+                    printf("Khong hop le \n");
                     n = 0; 
                     break;
                 }
